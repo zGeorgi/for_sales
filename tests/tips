@@ -1,0 +1,13 @@
+for Error : "element not interactable"
+-use execute_script
+- use ActioChains()
+
+Steel element:
+can happends when I use old ActionChnains() object
+to use CSS or Xpath
+
+-EROR-"element click intercepted"
+:This error happens when the element you try to click (e.g. the "next page" button)
+gets blocked by another element and becomes unclickable.
+The common cause of this is a pop-up being triggered, or there is a
+chat box that appears at the bottom-right of the page
