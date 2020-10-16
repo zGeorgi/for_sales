@@ -41,3 +41,24 @@
 2020-09-29 21:19:04,164 => INFO => test_sale => compare displayed quantity and items on the page
 2020-09-29 21:19:04,164 => INFO => test_sale => Open the Basket and get the quantity of the items!
 2020-09-29 21:19:04,858 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-10-15 10:15:50,199 => INFO => test_sale => Stop notification and accept cookies
+2020-10-15 10:15:50,673 => INFO => test_sale => Search items
+2020-10-15 10:16:01,615 => INFO => test_sale => Select item and add it to the Basket!
+2020-10-15 10:16:13,648 => INFO => test_sale => Open other products!
+2020-10-15 10:16:13,766 => INFO => test_sale => compare displayed quantity and items on the page
+2020-10-15 10:16:13,766 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-10-15 10:16:14,606 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-10-15 10:17:08,105 => INFO => test_sale => Stop notification and accept cookies
+2020-10-15 10:17:08,641 => INFO => test_sale => Search items
+2020-10-15 10:17:17,624 => INFO => test_sale => Select item and add it to the Basket!
+2020-10-15 10:17:26,374 => INFO => test_sale => Open other products!
+2020-10-15 10:17:26,549 => INFO => test_sale => compare displayed quantity and items on the page
+2020-10-15 10:17:26,549 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-10-15 10:17:27,240 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-10-16 10:56:45,517 => INFO => test_sale => Stop notification and accept cookies
+2020-10-16 10:56:45,935 => INFO => test_sale => Search items
+2020-10-16 10:56:53,634 => INFO => test_sale => Select item and add it to the Basket!
+2020-10-16 10:57:02,121 => INFO => test_sale => Open other products!
+2020-10-16 10:57:02,345 => INFO => test_sale => compare displayed quantity and items on the page
+2020-10-16 10:57:02,345 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-10-16 10:57:03,203 => INFO => test_sale => compare received quantity with desired and close the Basket!
