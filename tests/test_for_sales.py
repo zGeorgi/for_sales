@@ -13,7 +13,7 @@ class TestForSale(BaseClass):
         home_page = HomePage(self.driver)
         home_page.refuse_notifications()
         home_page.accept_cookiies()
-        loger.info("Stop notification and accept cookies")
+        loger.info("Stop notification and accept cookies!")
 
         home_page.search_items(load_data["product"])
         home_page.click_search()
