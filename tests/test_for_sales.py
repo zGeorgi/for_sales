@@ -11,7 +11,10 @@ class TestForSale(BaseClass):
         loger = self.logger_object()
 
         home_page = HomePage(self.driver)
-        home_page.refuse_notifications()
+        try:
+            home_page.refuse_notifications()
+        except:
+            print("No notification")
         home_page.accept_cookiies()
         loger.info("Stop notification and accept cookies!")
 
