@@ -12,18 +12,15 @@ def pytest_addoption(parser):
         "--browser_name", action="store", default="chrome", help="choose desire browser from cmd"
     )
 
- # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
+
 @pytest.fixture(scope="class")
 def invoke_browser(request):
     global driver
     browser = request.config.getoption("--browser_name")
 
     if browser == "chrome":
-        #chr_options = webdriver.ChromeOptions()
-        # chr_options.add_argument("--headless")
-        #chr_options.add_argument('--disable-gpu')
-        # driver = webdriver.Chrome(executable_path="/home/georgi/chromedriver/chromedriver", options=chr_options)
-        driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
+        # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)
+        driver = webdriver.Remote("ec2-3-11-13-14.eu-west-2.compute.amazonaws.com:4444/wd/hub", DesiredCapabilities.CHROME)
     if browser == "firefox":
         driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
 
