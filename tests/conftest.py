@@ -19,8 +19,8 @@ def invoke_browser(request):
     browser = request.config.getoption("--browser_name")
 
     if browser == "chrome":
-        # driver = webdriver.Remote("http://localhost:4444/wd/hub", DesiredCapabilities.CHROME)
-        driver = webdriver.Remote("ec2-3-11-13-14.eu-west-2.compute.amazonaws.com:4444/wd/hub", DesiredCapabilities.CHROME)
+        driver = webdriver.Remote("http://localhost:4444/wd/hub", DesiredCapabilities.CHROME)
+        #driver = webdriver.Remote("ec2-3-11-13-14.eu-west-2.compute.amazonaws.com:4444/wd/hub", DesiredCapabilities.CHROME)
     if browser == "firefox":
         driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
 
