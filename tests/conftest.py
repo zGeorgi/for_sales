@@ -22,7 +22,7 @@ def invoke_browser(request):
         # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)  this is for localhost
         chr_oprions = webdriver.ChromeOptions()
         driver = webdriver.Remote(command_executor="http://ec2-3-8-101-128.eu-west-2.compute.amazonaws.com:4444/wd/hub"
-                                  ,options=chr_oprions)
+                                  , options=chr_oprions)
     if browser == "firefox":
         driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
 
