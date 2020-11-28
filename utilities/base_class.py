@@ -12,7 +12,6 @@ class BaseClass:
         if logger.hasHandlers():
             logger.handlers.clear()
         file_handler = logging.FileHandler("logfile.log")
-
        # file_handler = logging.FileHandler("/home/georgi/PycharmProjects/forSales/utilities/logfile.log")
 
         formatter = logging.Formatter("%(asctime)s => %(levelname)s => %(name)s => %(message)s")
