@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pytest
+from selenium.webdriver import DesiredCapabilities
 
 from data_for_tests.for_sale_testData import DataForSaleTest
 
@@ -18,12 +19,19 @@ def invoke_browser(request):
     browser = request.config.getoption("--browser_name")
 
     if browser == "chrome":
-        # driver = webdriver.Remote("http://127.0.0.1:4444/wd/hub", DesiredCapabilities.CHROME)  this is for localhost
+        # driver = webdriver.Remote("http://172.17.0.1:4444/")  # this is for localhost
         chr_oprions = webdriver.ChromeOptions()
-        driver = webdriver.Remote(command_executor="http://ec2-18-133-246-23.eu-west-2.compute.amazonaws.com:4444/wd/hub"
-                                  , options=chr_oprions)
+        # driver = webdriver.Remote(command_executor="http://ec2-35-178-20-222.eu-west-2.compute.amazonaws.com:4444/wd/hub",
+        #     options=chr_oprions) for all version 
+        driver = webdriver.Remote("http://ec2-3-9-117-190.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
     if browser == "firefox":
-        driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
+        f_opt = webdriver.FirefoxOptions()
+        driver = webdriver.Remote("http://ec2-3-9-117-190.eu-west-2.compute.amazonaws.com:4444", options=f_opt)
+    # driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
+    if browser == "opera":
+        opera_opt = webdriver.ChromeOptions()
+        driver = webdriver.Remote("http://ec2-3-9-117-190.eu-west-2.compute.amazonaws.com:4444", options=opera_opt)
+
     driver.get("https://4sales.bg")
     print(driver.title)
     driver.maximize_window()
