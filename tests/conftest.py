@@ -22,15 +22,15 @@ def invoke_browser(request):
         # driver = webdriver.Remote("http://172.17.0.1:4444/")  # this is for localhost
         chr_oprions = webdriver.ChromeOptions()
         # driver = webdriver.Remote(command_executor="http://ec2-35-178-20-222.eu-west-2.compute.amazonaws.com:4444/wd/hub",
-        #     options=chr_oprions) for all version 
-        driver = webdriver.Remote("http://ec2-3-9-117-190.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
+        #     options=chr_oprions) for all version
+        driver = webdriver.Remote("http://ec2-35-178-116-17.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
     if browser == "firefox":
         f_opt = webdriver.FirefoxOptions()
-        driver = webdriver.Remote("http://ec2-3-9-117-190.eu-west-2.compute.amazonaws.com:4444", options=f_opt)
+        driver = webdriver.Remote("http://ec2-35-178-116-17.eu-west-2.compute.amazonaws.com:4444", options=f_opt)
     # driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
     if browser == "opera":
         opera_opt = webdriver.ChromeOptions()
-        driver = webdriver.Remote("http://ec2-3-9-117-190.eu-west-2.compute.amazonaws.com:4444", options=opera_opt)
+        driver = webdriver.Remote("http://ec2-35-178-116-17.eu-west-2.compute.amazonaws.com:4444", options=opera_opt)
 
     driver.get("https://4sales.bg")
     print(driver.title)
