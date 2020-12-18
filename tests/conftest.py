@@ -41,7 +41,7 @@ def invoke_browser(request):
     request.cls.driver = driver
 
     yield
-    driver.close()
+    driver.quit()
 
 
 @pytest.fixture(params=DataForSaleTest.data)
