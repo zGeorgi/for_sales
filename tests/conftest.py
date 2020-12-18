@@ -19,7 +19,7 @@ def invoke_browser(request):
     browser = request.config.getoption("--browser_name")
 
     if browser == "chrome":
-        chr_options = wbdriver.ChromeOptions()
+        chr_options = webdriver.ChromeOptions()
         driver = webdriver.Remote("http://ec2-18-134-74-167.eu-west-2.compute.amazonaws.com/:4444", options=chr_options)
         # driver = webdriver.Remote("http://172.17.0.1:4444/")  # this is for localhost
         #chr_oprions = webdriver.ChromeOptions()
