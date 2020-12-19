@@ -1,3 +1,3 @@
 # for_sales
 CI
-py_
+Python
