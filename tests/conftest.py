@@ -23,10 +23,10 @@ def invoke_browser(request):
         chr_oprions = webdriver.ChromeOptions()
         # driver = webdriver.Remote(command_executor="http://ec2-35-178-20-222.eu-west-2.compute.amazonaws.com:4444/wd/hub",
         #     options=chr_oprions) for all version
-        driver = webdriver.Remote("http://ec2-35-178-116-17.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
+        driver = webdriver.Remote("http://ec2-18-134-74-167.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
     if browser == "firefox":
         f_opt = webdriver.FirefoxOptions()
-        driver = webdriver.Remote("http://ec2-35-178-116-17.eu-west-2.compute.amazonaws.com:4444", options=f_opt)
+        driver = webdriver.Remote("http://ec2-18-134-74-167.eu-west-2.compute.amazonaws.com:4444", options=f_opt)
     # driver = webdriver.Firefox(executable_path="/home/georgi/geckodriver/geckodriver")
     if browser == "opera":
         opera_opt = webdriver.ChromeOptions()
@@ -39,7 +39,7 @@ def invoke_browser(request):
     request.cls.driver = driver
 
     yield
-    driver.close()
+    driver.quit()
 
 
 @pytest.fixture(params=DataForSaleTest.data)
