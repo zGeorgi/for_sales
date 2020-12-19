@@ -62,3 +62,146 @@
 2020-10-16 10:57:02,345 => INFO => test_sale => compare displayed quantity and items on the page
 2020-10-16 10:57:02,345 => INFO => test_sale => Open the Basket and get the quantity of the items!
 2020-10-16 10:57:03,203 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-10 22:57:24,413 => INFO => test_sale => Stop notification and accept cookies
+2020-11-10 22:57:25,241 => INFO => test_sale => Search items
+2020-11-18 21:36:43,487 => INFO => test_sale => Stop notification and accept cookies
+2020-11-18 21:36:44,228 => INFO => test_sale => Search items
+2020-11-18 21:36:50,726 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-18 21:36:58,956 => INFO => test_sale => Open other products!
+2020-11-18 21:36:59,087 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-18 21:36:59,088 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-18 21:37:00,223 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-18 21:55:35,047 => INFO => test_sale => Stop notification and accept cookies
+2020-11-18 21:55:35,716 => INFO => test_sale => Search items
+2020-11-18 21:55:46,362 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-18 21:55:56,207 => INFO => test_sale => Open other products!
+2020-11-18 21:55:56,362 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-18 21:55:56,362 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-18 21:55:57,349 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-18 22:01:40,298 => INFO => test_sale => Stop notification and accept cookies
+2020-11-18 22:01:40,796 => INFO => test_sale => Search items
+2020-11-18 22:01:47,899 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-18 22:01:56,425 => INFO => test_sale => Open other products!
+2020-11-18 22:01:56,806 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-18 22:01:56,806 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-18 22:01:57,823 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-18 22:10:15,070 => INFO => test_sale => Stop notification and accept cookies
+2020-11-18 22:10:15,715 => INFO => test_sale => Search items
+2020-11-18 22:10:23,163 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-18 22:10:31,058 => INFO => test_sale => Open other products!
+2020-11-18 22:10:31,255 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-18 22:10:31,255 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-18 22:10:32,259 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-19 09:45:40,477 => INFO => test_sale => Stop notification and accept cookies
+2020-11-19 09:45:41,225 => INFO => test_sale => Search items
+2020-11-19 09:45:47,894 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-19 09:45:55,557 => INFO => test_sale => Open other products!
+2020-11-19 09:45:55,786 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-19 09:45:55,786 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-19 09:45:56,717 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-19 10:29:56,271 => INFO => test_sale => Stop notification and accept cookies
+2020-11-19 10:29:57,148 => INFO => test_sale => Search items
+2020-11-19 10:30:03,961 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-19 10:30:13,726 => INFO => test_sale => Open other products!
+2020-11-19 10:30:13,835 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-19 10:30:13,835 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-19 10:30:14,803 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-23 22:02:27,216 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-23 22:02:27,858 => INFO => test_sale => Search items
+2020-11-23 22:02:35,074 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-23 22:02:42,265 => INFO => test_sale => Open other products!
+2020-11-23 22:02:42,789 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-23 22:02:42,789 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-23 22:02:43,357 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 18:10:31,870 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 18:10:34,608 => INFO => test_sale => Search items
+2020-11-24 18:10:40,002 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 18:10:45,554 => INFO => test_sale => Open other products!
+2020-11-24 18:10:47,006 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 18:10:47,006 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 18:10:47,689 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 18:15:10,208 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 18:15:10,934 => INFO => test_sale => Search items
+2020-11-24 18:15:17,155 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 18:15:24,107 => INFO => test_sale => Open other products!
+2020-11-24 18:15:24,305 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 18:15:24,305 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 18:15:25,198 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 19:22:24,810 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 19:22:27,292 => INFO => test_sale => Search items
+2020-11-24 19:22:32,238 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 19:22:36,786 => INFO => test_sale => Open other products!
+2020-11-24 19:22:37,131 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 19:22:37,131 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 19:22:37,582 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 20:16:37,556 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 20:16:40,032 => INFO => test_sale => Search items
+2020-11-24 20:16:44,802 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 20:16:49,447 => INFO => test_sale => Open other products!
+2020-11-24 20:16:49,806 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 20:16:49,806 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 20:16:50,276 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 20:48:57,832 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 20:49:00,428 => INFO => test_sale => Search items
+2020-11-24 20:49:04,983 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 20:49:09,587 => INFO => test_sale => Open other products!
+2020-11-24 20:49:09,940 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 20:49:09,941 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 20:49:10,404 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 20:57:06,465 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 20:57:08,793 => INFO => test_sale => Search items
+2020-11-24 20:57:13,227 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 20:57:17,635 => INFO => test_sale => Open other products!
+2020-11-24 20:57:17,974 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 20:57:17,974 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 20:57:18,271 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 21:01:30,665 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 21:01:33,265 => INFO => test_sale => Search items
+2020-11-24 21:01:38,121 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 21:01:42,708 => INFO => test_sale => Open other products!
+2020-11-24 21:01:43,088 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 21:01:43,089 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 21:01:43,529 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-24 21:05:11,413 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-24 21:05:14,111 => INFO => test_sale => Search items
+2020-11-24 21:05:17,413 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-24 21:05:22,562 => INFO => test_sale => Open other products!
+2020-11-24 21:05:23,051 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-24 21:05:23,051 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-24 21:05:23,808 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-25 18:04:04,080 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-25 18:04:06,903 => INFO => test_sale => Search items
+2020-11-25 18:04:10,671 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-25 18:04:15,918 => INFO => test_sale => Open other products!
+2020-11-25 18:04:16,455 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-25 18:04:16,455 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-25 18:04:17,269 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-26 17:21:42,630 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-26 17:21:45,631 => INFO => test_sale => Search items
+2020-11-26 17:21:49,267 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-26 17:21:54,756 => INFO => test_sale => Open other products!
+2020-11-26 17:21:55,470 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-26 17:21:55,470 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-26 17:21:56,319 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-26 17:22:27,221 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-26 17:22:29,760 => INFO => test_sale => Search items
+2020-11-26 17:22:33,397 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-26 17:22:38,437 => INFO => test_sale => Open other products!
+2020-11-26 17:22:38,892 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-26 17:22:38,892 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-26 17:22:39,648 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-26 17:33:14,796 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-27 21:13:41,921 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-27 21:13:44,803 => INFO => test_sale => Search items
+2020-11-27 21:13:50,481 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-27 21:13:55,798 => INFO => test_sale => Open other products!
+2020-11-27 21:13:56,483 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-27 21:13:56,483 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-27 21:13:57,380 => INFO => test_sale => compare received quantity with desired and close the Basket!
+2020-11-28 12:47:58,569 => INFO => test_sale => Stop notification and accept cookies!
+2020-11-28 12:48:01,914 => INFO => test_sale => Search items
+2020-11-28 12:48:09,294 => INFO => test_sale => Select item and add it to the Basket!
+2020-11-28 12:48:14,962 => INFO => test_sale => Open other products!
+2020-11-28 12:48:15,770 => INFO => test_sale => compare displayed quantity and items on the page
+2020-11-28 12:48:15,770 => INFO => test_sale => Open the Basket and get the quantity of the items!
+2020-11-28 12:48:16,546 => INFO => test_sale => compare received quantity with desired and close the Basket!
