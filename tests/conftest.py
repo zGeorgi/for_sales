@@ -17,7 +17,7 @@ def pytest_addoption(parser):
 def invoke_browser(request):
     global driver
     browser = request.config.getoption("--browser_name")
-    
+
     if browser == "chrome":
         chr_oprions = webdriver.ChromeOptions()
         driver = webdriver.Remote("http://ec2-18-134-74-167.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
