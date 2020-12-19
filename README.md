@@ -1,3 +1,2 @@
-# for_sales
-CI
-Python
+#for_sales
+CI Python c
