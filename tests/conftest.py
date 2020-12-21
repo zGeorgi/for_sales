@@ -24,7 +24,7 @@ def invoke_browser(request):
         # driver = webdriver.Remote("http://172.17.0.1:4444/") # this is for localhost
         # chr_oprions = webdriver.ChromeOptions()
         driver = webdriver.Remote(command_executor="http://ec2-18-130-247-36.eu-west-2.compute.amazonaws.com:4444/wd/hub",
-            options=chr_oprions) 
+            options=chr_oprions)
         # driver = webdriver.Remote("http://ec2-35-178-116-17.eu-west-2.compute.amazonaws.com:4444", options=chr_oprions)
     if browser == "firefox":
         f_opt = webdriver.FirefoxOptions()
@@ -42,7 +42,6 @@ def invoke_browser(request):
 
     yield
     driver.quit()
-
 
 @pytest.fixture(params=DataForSaleTest.data)
 def load_data(request):
